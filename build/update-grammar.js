@@ -59,5 +59,5 @@ function fixBadRegex(grammar) {
 	}
 }
 
-updateGrammar.update('KapitanOczywisty/language-php', 'grammars/php.cson', './syntaxes/php.tmLanguage.json', fixBadRegex, 'php74');
-updateGrammar.update('KapitanOczywisty/language-php', 'grammars/html.cson', './syntaxes/html.tmLanguage.json', adaptInjectionScope, 'php74');
+updateGrammar.update('KapitanOczywisty/language-php', 'grammars/php.cson', './syntaxes/php.tmLanguage.json', fixBadRegex, 'merge-all');
+updateGrammar.update('KapitanOczywisty/language-php', 'grammars/html.cson', './syntaxes/html.tmLanguage.json', adaptInjectionScope, 'merge-all');
