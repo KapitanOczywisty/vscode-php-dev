@@ -4,7 +4,7 @@
 		"If you want to provide a fix or improvement, please create a pull request against the original repository.",
 		"Once accepted there, we are happy to receive an update request."
 	],
-	"version": "https://github.com/KapitanOczywisty/language-php/commit/a16efc19bb2b4b45751b4be0e9cbced05867d9d6",
+	"version": "https://github.com/KapitanOczywisty/language-php/commit/b95dc79f30084c25547397ab41388af154e69895",
 	"scopeName": "source.php",
 	"patterns": [
 		{
@@ -640,7 +640,7 @@
 				"1": {
 					"patterns": [
 						{
-							"match": "final|abstract|public|private|protected|static",
+							"match": "public|private|protected|static",
 							"name": "storage.modifier.php"
 						}
 					]
@@ -2061,7 +2061,7 @@
 			]
 		},
 		"instantiation": {
-			"begin": "(?i)(new)\\s+(?!class)",
+			"begin": "(?i)(new)\\s+(?!class\\b)",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.other.new.php"
